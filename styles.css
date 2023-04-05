@@ -1,0 +1,111 @@
+/*document.getElementById("myDiv").style.border = "thick solid #0000FF";*/
+    .imgdiv{
+        background-color: cyan;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container .box{
+        position: relative;
+        width: 20rem;
+        height: 20rem;
+        margin: 3rem;
+        background-color:  black;
+    }
+    .container .box:hover .imgBox {
+        transform: translate(-1.5rem, -1.5rem);
+    }
+    .container .box:hover .content {
+        transform: translate(3.5rem, 3.5rem);
+        display: inline;
+    }
+    .imgbox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100% ;
+        z-index: 2;
+        transition: all 0.5s ease-in-out;
+         background-color: blue;}
+    .content{
+        display: none;
+    }
+    .imgBox img{
+        
+        width: 20rem;
+        height: 20rem ;
+        object-fit: cover;
+        resize: both;
+        background-color: rgb(255, 6, 6);
+
+    }
+
+    #email{
+        text-align: top;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-family: Verdana, sans-serif;
+        color: black;
+        background-color: darkgoldenrod;
+    }
+   
+
+    #contact{
+        text-align: top;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-family: Verdana, sans-serif;
+        color:black;
+        background-color: orangered;
+        font-style: bold;
+    }
+   
+
+    .skills,.contentinskills,.contentinskills,.ea,.insideea,.declare,.dots, .education, .contact{
+        text-align: left;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        color: black;
+        font-size: 16px;
+        font-family: Verdana, sans-serif;
+        background-color: coral;  
+    }
+
+    .ea{
+        background-color: orangered;
+        
+    }
+    .skills{
+        background-color: darkgoldenrod;
+    }
+    .declare{
+        background-color: darkgoldenrod;
+
+    }
+    .project{
+        background-color: orangered;
+    }
+    /*
+
+
+    a:hover {
+        font-weight: bold;
+    }
+    .right
+     {
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    /*height: auto;
+    width: 99%;
+    background-color: #E3EDD8;*/
+    }
